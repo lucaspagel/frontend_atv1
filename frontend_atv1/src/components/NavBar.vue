@@ -39,7 +39,7 @@ export default {
 
 #top-buttons {
     padding-top: 1.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }
 
 #description {
@@ -50,7 +50,7 @@ export default {
     margin-left: auto;
 	margin-right: auto;
 
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }
 
 #description p {

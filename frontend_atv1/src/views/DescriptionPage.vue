@@ -1,6 +1,6 @@
 <template>
     <div>
-        Desciption Page
+        Página Descrição
     </div>
 </template>
 
