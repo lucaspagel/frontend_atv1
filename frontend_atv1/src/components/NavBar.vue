@@ -6,6 +6,8 @@
             <router-link to="/description">Descrição</router-link>
         </div>
         <div id="description">
+            <img id="profile-picture" src="../assets/pfp.jpg" alt="Foto de Perfil">
+
             <h1>Lucas Pagel de Faria</h1>
 
             <p>Formado em Engenharia de Computação e técnico em Mecatrônica, atualmente cursando Pós-Graduação na PUC em
@@ -36,8 +38,8 @@ export default {
 }
 
 #top-buttons {
-    padding-top: 1rem;
-    padding-bottom: 10rem;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
 }
 
 #description {
@@ -53,6 +55,14 @@ export default {
 
 #description p {
     line-height: 1.7rem;
+}
+
+#profile-picture {
+    float: left;
+    width: 200;
+    height: 200;
+    margin-right: 3rem;
+    border-radius: 50%;
 }
 
 </style>
